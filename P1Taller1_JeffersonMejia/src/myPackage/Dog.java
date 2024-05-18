@@ -9,27 +9,27 @@ public class Dog extends Animal {
 
 	}
 
-	public String getBreed() {
+	public String GetBreed() {//Buenas Prcticas  Usasr para los metodos la  nomenclatura CamelCase @justinn1104
 		return breed;
 	}
 
-	public void setBreed(String breed) {
+	public void SetBreed(String breed) {//Buenas Prcticas  Usasr para los metodos la  nomenclatura CamelCase @justinn1104
 		this.breed = breed;
 	}
 
-	public void walk() {
+	public void Walk() {//Buenas Prcticas  Usasr para los metodos la  nomenclatura CamelCase @justinn1104
 		System.out.println("---------------------------");
 		System.out.println(this.getName() + " esta caminando");
 	}
 
 	@Override
-	public void playSound() {
+	public void PlaySound() {//Buenas Prcticas  Usasr para los metodos la  nomenclatura CamelCase @justinn1104
 		System.out.println("---------------------------");
 		System.out.println("Wuf, wuf, wuf");
 	}
 
 	@Override
-	public void describe() {
+	public void Describe() {//Buenas Prcticas  Usasr para los metodos la  nomenclatura CamelCase @justinn1104
 
 		System.out.println("Nombre: " + this.getName());
 		System.out.println("Especie: " + this.getSpecie());
