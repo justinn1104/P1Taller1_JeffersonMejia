@@ -1,7 +1,7 @@
 package myPackage;
 
 public class Seal extends Animal {
-
+/*
 	public Seal(String name, String specie, int age, double weight, double height) {
 		super(name, specie, age, weight, height);
 
@@ -26,5 +26,31 @@ public class Seal extends Animal {
 	public void swim() {
 		System.out.println("---------------------------");
 		System.out.println(this.getName() + " esta nadando");
+	}*/
+
+
+
+	public Seal(String name, String specie, int age, float weight, float height) {
+		super(name, specie, age, weight, height);
+
 	}
+
+	@Override
+	public String playSound() {
+		return "---------------------------\n"+
+				"Arf, arf, arf\n"+
+				"---------------------------\n"+
+				GetName() + " esta nadando";
+	};
+
+	
+	@Override
+	public String describe() {
+		return "Nombre: "+GetName()+
+				"\nEspecie: "+GetSpecie()+
+				"\nEdad: "+GetAge()+
+				"\nPeso: "+GetWeight()+
+				"\nAltura: "+GetHeight();
+	};
+	
 }
