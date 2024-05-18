@@ -28,4 +28,14 @@ public class Dog extends Animal {
 		System.out.println("Wuf, wuf, wuf");
 	}
 
+	@Override
+	public void describe() {
+
+		System.out.println("Nombre: " + this.getName());
+		System.out.println("Especie: " + this.getSpecie());
+		System.out.println("Edad: " + this.getAge());
+		System.out.println("Peso: " + this.getWeight());
+		System.out.println("Altura: " + this.getHeight());
+		System.out.println("Raza: " + this.getBreed());
+	}
 }
