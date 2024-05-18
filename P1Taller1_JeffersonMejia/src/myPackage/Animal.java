@@ -14,51 +14,51 @@ public abstract class Animal {
 		this.height = height;
 	}
 
-	public String getName() {
+	public String GetName() {//By justinn1104
 		return name;
 	}
 
-	public void setName(String name) {
+	public void SetName(String name) {//By justinn1104
 		this.name = name;
 	}
 
-	public String getSpecie() {
+	public String GetSpecie() {//By justinn1104
 		return specie;
 	}
 
-	public void setSpecie(String specie) {
+	public void SetSpecie(String specie) {//By justinn1104
 		this.specie = specie;
 	}
 
-	public int getAge() {
+	public int GetAge() {//By justinn1104
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void SetAge(int age) {//By justinn1104
 		this.age = age;
 	}
 
-	public double getWeight() {
+	public double GetWeight() {//By justinn1104
 		return weight;
 	}
 
-	public void setWeight(double weight) {
+	public void SetWeight(double weight) {//By justinn1104
 		this.weight = weight;
 	}
 
-	public double getHeight() {
+	public double GetHeight() {//By justinn1104
 		return height;
 	}
 
-	public void setHeight(double height) {
+	public void SetHeight(double height) {//By justinn1104
 		this.height = height;
 	}
 
-	public abstract void playSound();
+	public abstract void PlaySound();//By justinn1104
 
-	public abstract void describe();
+	public abstract void Describe();
 
-	public void grettings() {
+	public void Grettings() {//By justinn1104
 		System.out.println("Hola mi nombre es " + this.name);
 	}
 }
